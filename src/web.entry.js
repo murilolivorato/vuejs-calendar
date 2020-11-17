@@ -1,8 +1,16 @@
 import Vue from 'vue'
+import  './style.scss';
+import App from './components/App.vue';
+
+import moment from 'moment-timezone';
+
 
 new Vue({
   el: '#app',
   data: {
-    msg: 'Hello World'
-  }
+    moment
+  },
+  components: {
+    App
+  } ,
 });
